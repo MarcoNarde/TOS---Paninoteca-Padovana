@@ -2,7 +2,7 @@ os: windows
 
 dist: openjdk8
 
-language: java
+language: shell
 
 jdk:
   - oraclejdk8
