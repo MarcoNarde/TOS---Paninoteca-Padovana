@@ -1,3 +1,5 @@
+os: windows
+
 dist: openjdk8
 
 language: java
