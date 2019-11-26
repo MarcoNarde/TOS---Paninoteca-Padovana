@@ -1,10 +1,13 @@
-os: windows
-
-dist: openjdk8
-
-language: shell
-
-jdk:
-  - oraclejdk8
-
-script: ant build
+{
+  "os": [
+    "windows"
+  ],
+  "jdk": [
+    "oraclejdk8"
+  ],
+  "dist": "openjdk8",
+  "script": [
+    "ant build"
+  ],
+  "language": "shell"
+}
