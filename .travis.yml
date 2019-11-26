@@ -1,3 +1,5 @@
+dist: openjdk8
+
 language: java
 
 jdk:
