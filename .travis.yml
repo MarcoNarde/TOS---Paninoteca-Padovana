@@ -7,7 +7,7 @@
   ],
   "dist": "openjdk8",
   "script": [
-    "ant build"
+    "mvn clean install"
   ],
-  "language": "java"
+  "language": "shell"
 }
