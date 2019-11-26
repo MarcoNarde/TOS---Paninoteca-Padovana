@@ -9,5 +9,5 @@
   "script": [
     "ant build"
   ],
-  "language": "shell"
+  "language": "java"
 }
