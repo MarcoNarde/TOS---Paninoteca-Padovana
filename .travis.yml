@@ -5,6 +5,7 @@ sudo: required
 jdk: openjdk8
 cache:
 directories:
-- $HOME/sandwich-shop-manager
+- $HOME/.m2
 script:
+- cd sandwich-shop-manager
 - mvn clean install
