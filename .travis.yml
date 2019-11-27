@@ -1,13 +1,10 @@
-{
-  "os": [
-    "windows"
-  ],
-  "jdk": [
-    "oraclejdk8"
-  ],
-  "dist": "openjdk8",
-  "script": [
-    "mvn clean install"
-  ],
-  "language": "shell"
-}
+dist: trusty
+group: edge
+language: java
+sudo: required
+jdk: openjdk8
+cache:
+directories:
+- $HOME/.m2
+script:
+- mvn clean install
